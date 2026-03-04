@@ -66,13 +66,13 @@ Edit your config file:
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "telegram": {
       "enabled": true,
-      "token": "YOUR_BOT_TOKEN",
+      "token": "replace_me_with_your_token",
       "allow_from": ["YOUR_USER_ID"]
     }
   }
@@ -158,13 +158,13 @@ In the Bot settings page:
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "discord": {
       "enabled": true,
-      "token": "YOUR_BOT_TOKEN",
+      "token": "replace_me_with_your_token",
       "allow_from": ["YOUR_USER_ID"]
     }
   }
@@ -215,7 +215,7 @@ docker run -d --name whatsapp-bridge -p 3001:3001 mileusna/whatsapp-web-bridge
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
@@ -299,14 +299,14 @@ ngrok http 18790
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "feishu": {
       "enabled": true,
-      "app_id": "YOUR_APP_ID",
-      "app_secret": "YOUR_APP_SECRET",
+      "app_id": "replace_me_with_your_token",
+      "app_secret": "replace_me_with_your_token",
       "encrypt_key": "",
       "verification_token": "",
       "allow_from": []
@@ -350,14 +350,14 @@ picoclaw gateway
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "qq": {
       "enabled": true,
-      "app_id": "YOUR_APP_ID",
-      "app_secret": "YOUR_APP_SECRET",
+      "app_id": "replace_me_with_your_token",
+      "app_secret": "replace_me_with_your_token",
       "allow_from": []
     }
   }
@@ -405,14 +405,14 @@ picoclaw gateway
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "dingtalk": {
       "enabled": true,
-      "client_id": "YOUR_CLIENT_ID",
-      "client_secret": "YOUR_CLIENT_SECRET",
+      "client_id": "replace_me_with_your_token",
+      "client_secret": "replace_me_with_your_token",
       "allow_from": []
     }
   }
@@ -476,14 +476,14 @@ In LINE Developers Console:
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "line": {
       "enabled": true,
-      "channel_secret": "YOUR_CHANNEL_SECRET",
-      "channel_access_token": "YOUR_CHANNEL_ACCESS_TOKEN",
+      "channel_secret": "replace_me_with_your_token",
+      "channel_access_token": "replace_me_with_your_token",
       "webhook_host": "0.0.0.0",
       "webhook_port": 18791,
       "webhook_path": "/webhook/line",
@@ -560,14 +560,14 @@ picoclaw gateway
   },
   "providers": {
     "openrouter": {
-      "api_key": "YOUR_OPENROUTER_API_KEY"
+      "api_key": "replace_me_with_your_token"
     }
   },
   "channels": {
     "slack": {
       "enabled": true,
-      "bot_token": "xoxb-YOUR-BOT-TOKEN",
-      "app_token": "xapp-YOUR-APP-TOKEN",
+      "bot_token": "replace_me_with_your_token",
+      "app_token": "replace_me_with_your_token",
       "allow_from": []
     }
   }
@@ -600,40 +600,40 @@ picoclaw gateway
   },
   "providers": {
     "openrouter": {
-      "api_key": "sk-or-v1-xxxxxxxx",
+      "api_key": "replace_me_with_your_token",
       "api_base": "https://openrouter.ai/api/v1"
     },
     "zhipu": {
-      "api_key": "xxxxxxxx",
+      "api_key": "replace_me_with_your_token",
       "api_base": "https://open.bigmodel.cn/api/paas/v4"
     },
     "anthropic": {
-      "api_key": "sk-ant-xxxxxxxx",
+      "api_key": "replace_me_with_your_token",
       "api_base": "https://api.anthropic.com"
     },
     "openai": {
-      "api_key": "sk-xxxxxxxx",
+      "api_key": "replace_me_with_your_token",
       "api_base": "https://api.openai.com/v1"
     },
     "gemini": {
-      "api_key": "xxxxxxxx",
+      "api_key": "replace_me_with_your_token",
       "api_base": ""
     },
     "groq": {
-      "api_key": "gsk_xxxxxxxx",
+      "api_key": "replace_me_with_your_token",
       "api_base": "https://api.groq.com/openai/v1"
     }
   },
   "channels": {
     "telegram": {
       "enabled": true,
-      "token": "123456789:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "token": "replace_me_with_your_token",
       "proxy": "",
       "allow_from": [123456789]
     },
     "discord": {
       "enabled": true,
-      "token": "MTK3NjE4NjQxMzg3Mzg2NzY5OA.G-ABCDE.abcdefghij",
+      "token": "replace_me_with_your_token",
       "allow_from": [123456789012345678]
     },
     "whatsapp": {
@@ -643,28 +643,28 @@ picoclaw gateway
     },
     "feishu": {
       "enabled": false,
-      "app_id": "cli_xxxxxxxxxxxxxxxx",
-      "app_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "app_id": "replace_me_with_your_token",
+      "app_secret": "replace_me_with_your_token",
       "encrypt_key": "",
       "verification_token": "",
       "allow_from": []
     },
     "qq": {
       "enabled": false,
-      "app_id": "1234567890",
-      "app_secret": "xxxxxxxxxxxxxxxx",
+      "app_id": "replace_me_with_your_token",
+      "app_secret": "replace_me_with_your_token",
       "allow_from": []
     },
     "dingtalk": {
       "enabled": false,
-      "client_id": "dingxxxxxxxxxxxxxx",
-      "client_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "client_id": "replace_me_with_your_token",
+      "client_secret": "replace_me_with_your_token",
       "allow_from": []
     },
     "line": {
       "enabled": false,
-      "channel_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-      "channel_access_token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "channel_secret": "replace_me_with_your_token",
+      "channel_access_token": "replace_me_with_your_token",
       "webhook_host": "0.0.0.0",
       "webhook_port": 18791,
       "webhook_path": "/webhook/line",
@@ -672,8 +672,8 @@ picoclaw gateway
     },
     "slack": {
       "enabled": false,
-      "bot_token": "xoxb-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxx",
-      "app_token": "xapp-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxx",
+      "bot_token": "replace_me_with_your_token",
+      "app_token": "replace_me_with_your_token",
       "allow_from": []
     }
   },
@@ -681,7 +681,7 @@ picoclaw gateway
     "web": {
       "brave": {
         "enabled": true,
-        "api_key": "BSAxxxxxxxxxxxxxxxxxx",
+        "api_key": "replace_me_with_your_token",
         "max_results": 5
       },
       "duckduckgo": {
